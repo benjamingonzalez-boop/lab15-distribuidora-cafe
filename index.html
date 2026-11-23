@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Técnico Estándar (Máx 60 chars título / Máx 155 chars descripción) -->
+    <title>Andes Roast | Distribuidora de Café de Especialidad</title>
+    <meta name="description" content="Distribución mayorista y minorista de café peruano de altura. Grano seleccionado, tostado artesanal y envíos directos para cafeterías y empresas.">
+    <meta name="keywords" content="distribuidor de café, café peruano, café al por mayor, café de especialidad, granos de café">
+    <meta name="author" content="Andes Roast">
+
+    <!-- Protocolo Open Graph para Redes Sociales -->
+    <meta property="og:title" content="Andes Roast | Distribuidora de Café de Especialidad">
+    <meta property="og:description" content="Abastecemos tu negocio con el mejor café de altura. Solicita tu cotización o muestra hoy mismo.">
+    <meta property="og:image" content="https://tu-proyecto.vercel.app/assets/IMAGEN1CAFE.avif">    
+    <meta property="og:url" content="https://tu-proyecto.vercel.app/">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navegación -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#inicio" class="logo">☕ Andes<span>Roast</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#clientes">Clientes Satisfechos</a></li>
+                    <li><a href="#contacto" class="btn-nav">Cotizar Pedido</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección: Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <span class="badge">🔒 Conexión Segura HTTPS & Envío Nacional</span>
+            <h1>El mejor café de origen directo a tu negocio</h1>
+            <p>Somos distribuidores oficiales de granos seleccionados de Chanchamayo, Villa Rica y Quillabamba. Tostado fresco bajo pedido para cafeterías, oficinas y hogares.</p>
+            <div class="hero-buttons">
+                <a href="#productos" class="btn-primary">Ver Catálogo</a>
+                <a href="#contacto" class="btn-secondary">Solicitar Muestra</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Productos -->
+    <section id="productos" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Presentaciones en grano entero o molido (bolsas de 1 kg y sacos de 25 kg)</p>
+            
+            <div class="grid-cards">
+                <article class="card">
+                    <img src="assets/IMAGEN1CAFE.avif" alt="Café Arábica Villa Rica">
+                    <div class="card-body">
+                        <h3>Blend Villa Rica Clásico</h3>
+                        <p>Notas a chocolate oscuro, panela y nueces. Tueste medio ideal para máquinas espresso.</p>
+                        <div class="card-footer">
+                            <span class="price">S/ 45.00 / kg</span>
+                            <button class="btn-select" onclick="seleccionarProducto('Blend Villa Rica Clásico')">Pedir</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/IMAGEN2CAFE.avif" alt="Café Geisha Quillabamba">
+                    <div class="card-body">
+                        <h3>Reserva Geisha Altura</h3>
+                        <p>Cultivado a 1,900 m.s.n.m. Perfil floral, acidez cítrica brillante y aroma a jazmín.</p>
+                        <div class="card-footer">
+                            <span class="price">S/ 68.00 / kg</span>
+                            <button class="btn-select" onclick="seleccionarProducto('Reserva Geisha Altura')">Pedir</button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/IMAGEN3CAFE.avif" alt="Café Orgánico Chanchamayo">
+                    <div class="card-body">
+                        <h3>Orgánico Chanchamayo</h3>
+                        <p>100% libre de pesticidas. Cuerpo cremoso con notas dulces a caramelo y frutos rojos.</p>
+                        <div class="card-footer">
+                            <span class="price">S/ 52.00 / kg</span>
+                            <button class="btn-select" onclick="seleccionarProducto('Orgánico Chanchamayo')">Pedir</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Clientes Satisfechos -->
+    <section id="clientes" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Clientes Satisfechos</h2>
+            <p class="section-subtitle">Cafeterías y empresas que confían en nuestra distribución semanal</p>
+            
+            <div class="grid-cards">
+                <div class="testimonial-card">
+                    <p class="quote">"Desde que cambiamos a Andes Roast, nuestros clientes elogian el aroma de cada espresso. La puntualidad en las entregas es impecable."</p>
+                    <div class="client-info">
+                        <strong>María Fernanda Torres</strong>
+                        <span>Dueña de Cafetería Aroma Sur</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"Abastecen nuestras 3 oficinas en Arequipa con café recién tostado cada lunes. Excelente relación calidad-precio por volumen."</p>
+                    <div class="client-info">
+                        <strong>Carlos Mendoza</strong>
+                        <span>Gerente de Operaciones - TechPeru</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"El Blend Villa Rica tiene una consistencia increíble para arte latte. Su asesoría en calibración de molinos nos ayudó muchísimo."</p>
+                    <div class="client-info">
+                        <strong>Javier Quispe</strong>
+                        <span>Barista Principal - La Molienda</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Formulario Enlazado a Base de Datos -->
+    <section id="contacto" class="section">
+        <div class="container form-container">
+            <h2 class="section-title">Solicita tu Pedido o Cotización</h2>
+            <p class="section-subtitle">Los datos se registran directamente en nuestra base de datos en la nube</p>
+
+            <form id="pedidoForm" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo o Empresa *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Cafetería Central" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" placeholder="correo@empresa.com" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="producto">Variedad de Café *</label>
+                        <select id="producto" name="producto" required>
+                            <option value="Blend Villa Rica Clásico">Blend Villa Rica Clásico</option>
+                            <option value="Reserva Geisha Altura">Reserva Geisha Altura</option>
+                            <option value="Orgánico Chanchamayo">Orgánico Chanchamayo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cantidad">Cantidad (kg) *</label>
+                        <input type="number" id="cantidad" name="cantidad" min="1" value="5" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Notas de entrega o tipo de molienda</label>
+                    <textarea id="mensaje" name="mensaje" rows="3" placeholder="Ej. En grano entero, entrega en horario de mañana..."></textarea>
+                </div>
+
+                <button type="submit" id="btnSubmit" class="btn-primary btn-block">Enviar Pedido a Base de Datos</button>
+                <div id="estadoEnvio" class="status-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer con Copyright -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> <strong>Andes Roast Distribuidora de Café S.A.C.</strong> Todos los derechos reservados.</p>
+            <p class="footer-tech">Desplegado con CI/CD en GitHub | Certificado SSL/HTTPS Activo</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
