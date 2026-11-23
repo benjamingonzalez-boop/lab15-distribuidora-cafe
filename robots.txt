@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tu-proyecto.vercel.app/sitemap.xml
+Sitemap: https://lab15-distribuidora-cafe.vercel.app/sitemap.xml
